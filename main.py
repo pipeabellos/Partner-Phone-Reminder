@@ -42,13 +42,13 @@ while True:
             date_sent_after=message_date_created,
             from_=recipients_phone
         )
-        print(messages)
+        #print(messages)
 
         # Check if any new messages have been received
-        print(len(messages))
+        #print(len(messages))
         if len(messages) > 0:
             message = client.messages(messages[0].sid).fetch()
-            print(message.to)
+            #print(message.to)
             if message.direction == "inbound":
                 # Get the latest message
                 latest_message = messages[0]
