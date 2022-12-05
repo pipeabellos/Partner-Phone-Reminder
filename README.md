@@ -1,4 +1,4 @@
-# **Phone Validation Script**
+# **Phone Validation Script created by chatgpt**
 
 This Python script sends an SMS message to a specific number asking the recipient to write down his/her partner's phone number. The script then checks if the response received is the same as the phone number to be validated.
 
